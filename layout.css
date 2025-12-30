@@ -2,3 +2,48 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+@media screen and (min-width: 800px) {
+  .forside_img_links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .grid_1_2_tema2_proces {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+  .grid_2_1_tema2_kode {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+  #order {
+    grid-area: 1;
+  }
+  .grid_1_2_tema3_proces {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+  .grid_2_1_tema3_kode {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+  .grid_1_2_tema4_proces {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+  .grid_2_1_tema4_kode {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+  .grid_1_2_tema5_del2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+  .grid_2_1_tema5_del2 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+  .grid_1_1_om_mig {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}

@@ -8,15 +8,32 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="layout.css">
     <title>Forside</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cutive&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="darkmode">
     <header>
         <div class="logo">
             <a href="index.html">
                 <img src="1_semester_emsamen_imgs/logo/1_semster_eksamen_logo_v2_copy_copy.svg" alt="Logo">
             </a>
         </div>
+        <button id="theme_switch">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f">
+                <path
+                    d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f">
+                <path
+                    d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Z" />
+            </svg>
+        </button>
         <nav>
             <ul class="menu">
                 <li><a href="tema2.html">Tema 2</a></li>
@@ -36,6 +53,7 @@
         <h1>Alex C. H. A.</h1>
         <h2>Eksamensportofolie</h2>
         <div class="p_bg_color">
+            <h3>Hej!</h3>
             <p>Velkommen til mit 1. semesters eksamensportofolie. På den her hjemmeside vil jeg give et overblik over de
                 temaer som jeg
                 har været igennem her på 1. semester af multimediedesigner uddannelsen hos EK.</p>
@@ -49,19 +67,29 @@
                 ligger under denne sektion.</p>
         </div>
         <div class="forside_img_links"><a href="tema2.html"><img class="forside_link_imgs"
-                    src="1_semester_emsamen_imgs/imgs_tema2/tema2_link_img.webp" alt="Tema 2 billede link"></a>
+                    src="1_semester_emsamen_imgs/imgs_tema2/tema2_link_img.svg" alt="Tema 2 billede link"></a>
             <a href="tema3.html"><img class="forside_link_imgs"
-                    src="1_semester_emsamen_imgs/imgs_tema3/tema3_link_img.webp" alt="Tema 3 billede link"></a>
+                    src="1_semester_emsamen_imgs/imgs_tema3/tema3_link_img.svg" alt="Tema 3 billede link"></a>
             <a href="tema4.html"><img class="forside_link_imgs"
-                    src="1_semester_emsamen_imgs/imgs_tema4/tema4_link_img.jpg" alt="Tema 4 billede link"></a>
+                    src="1_semester_emsamen_imgs/imgs_tema4/tema4_link_img.svg" alt="Tema 4 billede link"></a>
             <a href="tema5.html"><img class="forside_link_imgs"
-                    src="1_semester_emsamen_imgs/imgs_tema5/tema5_link_img.webp" alt="Tema 5 billede link"></a>
+                    src="1_semester_emsamen_imgs/imgs_tema5/tema5_link_img.svg" alt="Tema 5 billede link"></a>
         </div>
-        <a href="ommig.html"><button class="forside_ommig_btn">Om mig</button></a>
+        <div class="forside_btn_center">
+            <a href="ommig.html">
+                <h2 class="forside_ommig_btn">Om mig</h2>
+            </a>
+        </div>
+        <div id="back_to_top_icon">
+            <a href="index.html">
+                <img src="1_semester_emsamen_imgs/div_imgs/back_to_top_btn.webp" alt="Back to top knap">
+            </a>
+        </div>
     </main>
-    <footer>
+    <footer class="footer_text">
         Lavet af: Alex Cornelia Hjort Arentz
         <script src="menu.js"></script>
+        <script src="darkmode.js" defer></script>
     </footer>
 </body>
 

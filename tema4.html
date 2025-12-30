@@ -8,6 +8,13 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="layout.css">
     <title>Tema 4</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cutive&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -17,6 +24,16 @@
                 <img src="1_semester_emsamen_imgs/logo/1_semster_eksamen_logo_v2_copy_copy.svg" alt="Logo">
             </a>
         </div>
+        <button id="theme_switch">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f">
+                <path
+                    d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f">
+                <path
+                    d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Z" />
+            </svg>
+        </button>
         <nav>
             <ul class="menu">
                 <li><a href="tema2.html">Tema 2</a></li>
@@ -35,10 +52,134 @@
     <main>
         <h1>Tema 4</h1>
         <h2>Emergency site</h2>
+        <div class="h3_bg_color_and_p">
+            <h3>Lidt om opgaven</h3>
+            <p>Til den her opgave skulle vi lave en hjemmeside, der skulle kunne hjælpe brugeren med at løse en eller
+                anden form for
+                "emergency". Vi fik frie tøjler for, hvad vores "emergency" skulle være, og det behøvede ikke være
+                realistisk (det
+                eksempel, der blev brugt i undervisningen var et zombie-angreb).</p>
+            <br>
+            <p>Denne opgave blev brugt til at lære os om JavaScript, lidt om, hvordan vi kan bruge Adobe Illustrator og,
+                hvordan man
+                inkorporere SVG'er i sin kodning. Vi fik udleveret en skabelon til koden, så vi skulle ikke starte helt
+                fra scratch.</p>
+        </div>
+        <div class="tema_btn_center">
+            <a href="https://alex190303.github.io/body-horror-doctor/">
+                <h2 class="tema_link_website_btn">Link til
+                    website</h2>
+            </a>
+        </div>
+        <section class="grid_1_2_tema4_proces">
+            <div>
+                <img class="tema4_proces_img" src="1_semester_emsamen_imgs/imgs_tema4/tema4_proces_img.webp"
+                    alt="Billede af screenshots for processen under tema 4">
+            </div>
+            <div class="p_bg_color">
+                <h3>Processen</h3>
+                <p>Vi startede ud med, at blive bedt om at lave en masse idéudviklingsøvelser, for at hjælpe os med at
+                    komme
+                    op med idéen
+                    til, hvad vores "emergency" skulle være. I stedet for at komme med et koncept til en nødsituation,
+                    som
+                    min hjemmeside
+                    kunne hjælpe med at løse, kom jeg i stedet for op med et koncept til et computerspil, hvor brugeren
+                    ville agere som en
+                    special læge, der skulle hjælpe med at kurere børn, som var blevet inficerede af monstre.
+                    Selvfølgelig
+                    kom min
+                    hjemmeside ikke til at fungere helt som et computerspil, da jeg stadig gjorde brug af alle de
+                    teknikker,
+                    som vi lærte i
+                    undervisningen.</p>
+                <br>
+                <p>Efter jeg var kommet frem til min idé for hjemmesiden, gik jeg igang med at indsamle inspiration til
+                    stilen for de
+                    illustrationer, som jeg skulle lave til min hjemmeside, ved at bruge Adobe Illustrator. Alle
+                    skitserne
+                    til min
+                    hjemmeside startede jeg ud med at tegne på papir, og efterfølgende fik jeg lavet en digital version
+                    af
+                    dem.</p>
+                <br>
+                <p>På det screenshot her har jeg valgt at vise et fuldt overblik over hele mit mind-map/notes-board, som
+                    jeg
+                    lavede på
+                    Figma. Man kan også se et zoom-in af den timeline jeg lavede over min proces til dette tema.
+                </p>
+            </div>
+        </section>
+        <section class="grid_2_1_tema4_kode">
+            <div>
+                <img class="tema4_kode_img" src="1_semester_emsamen_imgs/imgs_tema4/tema4_kode_img.webp"
+                    alt="Billede af screenshots for kodningen til tema 4">
+            </div>
+            <div id="order" class="p_bg_color">
+                <h3>Kodningen</h3>
+                <p>Som nævnt foroven, så blev denne opgave brugt til at lære os noget om JavaScript. Vi brugte bl.a.
+                    JavaScript til at lave
+                    funktionelle "hotspots", som man kan klikke på, og så popper der noget tekst op, der passer til det
+                    "hotspot". Vi lærte
+                    også, hvordan man bruger JavaScript til at tilføje en "light/dark mode" funktion på sin hjemmeside,
+                    og,
+                    hvordan man
+                    laver funktionelle forms ved hjælp af JavaScript.</p>
+                <br>
+                <p>Man kan se noget af det JavaScript jeg brugte til hjemmesiden på det her screenshot. Jeg har også
+                    valgt
+                    at vise nogle
+                    eksempler på, hvordan jeg har linket til de forskellige JavaScript-filer i footeren på mine HTML
+                    sider.
+                    I screenshotet
+                    kan man også se oversigten over alle de CSS-filer, der kom med kode-skabeloen. Fordi der var så
+                    mange
+                    forskellige filer,
+                    som var blevet lavet for os på forhånd, var det lidt svært at danne sig et overblik over, hvor de
+                    forskellige elementer
+                    hørte til.</p>
+                <br>
+                <p>På den ene side, så var det rart, at vi ikke skulle bygge alt koden op fra bunden af, men på den
+                    anden
+                    side, så var det
+                    som sagt lidt svært at finde rundt i al koden, da man ikke selv fra starten af havde valgt, hvor de
+                    forskellige
+                    elementer og funktioner skulle ligge.</p>
+            </div>
+        </section>
+
+        <div>
+            <img class="tema4_faerdig_img" src="1_semester_emsamen_imgs/imgs_tema4/tema4_faerdig_img.webp"
+                alt="Billede af screenshots af det faerdige produkt til tema 4">
+        </div>
+        <div class="p_bg_color">
+            <h3>Det færdige produkt</h3>
+            <p>Eftersom konceptet for mit "emergency site" var baseret på at det skulle efterligne et computerspil, så
+                var instrukserne
+                på min hjemmeside ikke skrevet til at give brugeren en løsning til en nødsituation, men i stedet skrevet
+                som instrukser
+                til, hvordan man skulle spille computerspillet.</p>
+            <br>
+            <p>På det screenshot her kan man se toppen af forsiden, i både light og dark mode. Man kan også se et af de
+                "popover"
+                elementer, som ligger på hjemmesidens forside. Udover forsiden, kan man se lidt af, hvordan
+                instruction.html'en og
+                register.html'en ser ud inde på hjemmesiden. På register.html siden kan man se, hvilke "forms" elementer
+                jeg har gjort
+                brug af. Når man har udfyldt formen og klikket på, "indsend", så kommer den samme information over på
+                den anden side,
+                hvor der står, "Udskrivelse af information:".</p>
+        </div>
+        <div id="back_to_top_icon">
+            <a href="tema4.html">
+                <img src="1_semester_emsamen_imgs/div_imgs/back_to_top_btn.webp" alt="Back to top knap">
+            </a>
+        </div>
     </main>
-    <footer>
+    <footer class="footer_text">
         Lavet af: Alex Cornelia Hjort Arentz
         <script src="menu.js"></script>
+        <script src="darkmode.js" defer></script>
     </footer>
 </body>
 
